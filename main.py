@@ -44,7 +44,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://fast-rest-api.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://web-production-0a5c.up.railway.app/' + TOKEN)
     return "!", 200
 
 
