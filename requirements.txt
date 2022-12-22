@@ -1,0 +1,5 @@
+requests==2.25.1
+pyTelegramBotAPI
+boto==2.49.0
+Flask
+gTTS
